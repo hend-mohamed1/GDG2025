@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(../imgs/img3.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"JetBrains Mono", serif;
+}
+.header {
+    width: 700px;
+    height: 50px;
+    background-color: #A67C52;
+    margin: auto;
+    border-radius: 8px 0 8px 0;
+    margin-top: 10px;
+}
+.list{
+    margin-left: 220px;
+    padding-top: 13px;
+}
+.list li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+}
+.list li a {
+    text-decoration: none;
+    color: #F5E1C8;
+    font-size: 17px;
+}
+.list li a:hover{
+    color: #D4B090;
+    border-bottom: 1px solid #D4B090;
+}
+.img4{
+    width: 100px;
+    height: 55px;
+    float: left;
+
+}
+h2{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.sp1{
+    color: #FAE6D3; /* بيج فاتح لتحسين الوضوح */
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* ظل خفيف */
+    letter-spacing: 1px; 
+    margin: 0 50px;
+   
+}
+.sp2{
+    font-weight: bold;
+    color:#edd1a8 ;
+}
+.btn1{
+    width: 70px;
+    height: 40px;
+    background-color:#C8A37E;
+    font-size: 15px;
+    font-weight: bold;
+    border:1px solid #8B5E3C;
+    border-radius: 8px 0 8px 0;
+   
+}
+.btn1 a{
+    color: white;
+    text-decoration: none;
+
+}
+.btn2 a{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    width: 70px;
+    height: 40px;
+    background-color:#C8A37E;
+    font-size: 15px;
+    font-weight: bold;
+    border:1px solid #8B5E3C;
+    border-radius: 8px 0 8px 0;
+  
+}
+.btn1:hover{
+    background-color: #B28A6D;
+}
+.btn2:hover{
+    background-color: #B28A6D;
+}
+.div1 {
+    display: flex;
+    justify-content: center; /* توسيط العناصر أفقيًا */
+    gap: 40px; /* المسافة بين العناصر */
+    padding: 50px 0; /* مسافة من الأعلى والأسفل */
+    margin-top: 70px;
+}
+
+.img1, .img2, .img3 {
+    display: flex;
+    flex-direction: column; /* ترتيب الصورة فوق النص */
+    align-items: center; /* توسيط العناصر داخل كل div */
+    text-align: center; /* توسيط النص أسفل الصورة */
+    width: 250px; /* تثبيت عرض كل عنصر */
+}
+
+.im11, .im22, .im33 {
+    width: 250px; /* نفس العرض لكل الصور */
+    height: 150px; /* نفس الارتفاع لكل الصور */
+    object-fit: cover; /* يضمن تناسب الصورة بدون تشويه */
+    border-radius: 15px; /* زوايا دائرية للصورة */
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0; /* مسافة بين الصورة والعنوان */
+    color:#C69C72;
+}
+
+.p1, .p2, .p3 {
+    font-size: 14px;
+    color:#EAD7C1; /* لون رمادي للنص */
+    margin: 10px 0;
+}
+
+.read-more {
+    background-color: #5C3D2E; /* لون بني يشبه لون القهوة */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    background-color: #40291F; /* لون أغمق عند المرور عليه */
+}
+.div2{
+    max-width: 600px;
+    margin: auto;
+    background: #f5e1c0;
+    padding: 20px;
+    border-radius:15px;
+   
+}
+
+h1 {
+
+        color: #8b4513; /* بني محروق فاخر */
+        font-size: 28px;
+        font-weight: bold;
+       margin-bottom: 10px;
+}
+.div2 p {
+    
+        line-height: 1.8;
+        color: #5d4037; /* بني متوسط */
+        font-size: 18px;
+        text-align: left;
+    
+}
+
+.p5 {
+    font-style: italic;
+    color: #795548; /* بني فاتح */
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.p6 {
+    font-weight: bold;
+    color: #3e2723; /* بني غامق */
+    font-size: 18px;
+    margin-top: 20px;
+}
+.div3 {
+    background-color:#e3c7a6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+.img8 {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text8{
+    margin-top: 15px;
+}
+.opening-hours, .address {
+    font-size: 18px;
+    color: #5a4a42;
+}
+.div4{
+    width: 50%;
+    margin: auto;
+    background-color:#e3c7a6;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+
+ .div4 p {
+    font-size: 16px;
+    color: #333;
+    color: #5a3e2b;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b08a6c; /* بني فاتح */
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f5e6d3; /* بيج فاتح */
+    color: #5a3e2b;
+}
+
+textarea {
+    height: 80px;
+}
+button {
+    background-color: #5a3e2b; /* بني غامق */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3e2a1e; /* بني أغمق */
+}
