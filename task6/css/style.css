@@ -15,10 +15,12 @@ text-align: center;
 .one{
    font-size: 80px;
    text-align: center;
+   text-transform: uppercase;
 }
 .two{
     font-size: 60px;
     text-align: center;
+    text-transform: capitalize;
  }
  .three{
     font-size:40px;
@@ -30,28 +32,44 @@ text-align: center;
     color: white;
     text-transform:capitalize;
  }
- .link1{
-    width: 180px;
-    height: 100px;
-    background-color: rgb(1, 154, 154);
-    text-align: center;
-    margin: auto;
-    padding-top:20px;
-    font-weight: bold;
- 
-  
-    
- }
  .p1 {
-    width: 400px;
-    padding: 10px;
-    background-color: #f0f0f0; 
-    color: black; 
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: auto;
+   width: 400px;
+   padding: 10px;
+   background-color: #f0f0f0; 
+   color: black; 
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   margin: auto;
+  margin-top: 50px;
+ }
+  .p2{
+   width: 400px;
+   text-align: center;
+   margin: auto;
+   margin-top: 50px;
+   
+  }
+  .p3{
+   width: 400px;
+   text-align: center;
+   margin: auto;
+   margin-top: 50px;
   }
 
+
   
- 
+ .link1{
+   width: 180px;
+   height: 100px;
+   background-color: rgb(1, 154, 154);
+   text-align: center;
+   margin: auto;
+   padding-top:20px;
+   font-weight: bold;
+
+   border: 2px solid black;
+   margin-top: 50px;
+   border-radius: 10px;
+   
+}
