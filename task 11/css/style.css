@@ -4,18 +4,29 @@
   box-sizing: border-box;
 }
 
- body {
-  background-color: rgb(0, 0, 0);
-  overflow: hidden; 
-  height: 100vh;
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+
+.animation-section {
   position: relative;
-} 
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-section {
+  padding: 40px;
+}
+
 
 img {
   width: 100px;
   height: 130px;
   position: absolute;
-  bottom: -400px; 
+  bottom: -400px;
   animation-name: move-up;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
@@ -23,27 +34,11 @@ img {
   animation-direction: alternate;
 }
 
-
-.img1 {
-  left: 10%;
-  animation-delay: 0s;
-}
-.img3 {
-  left: 30%;
-  animation-delay: 2s;
-}
-.img4 {
-  left: 50%;
-  animation-delay: 4s;
-}
-.img5 {
-  left: 70%;
-  animation-delay: 6s;
-}
-.img6 {
-  left: 90%;
-  animation-delay: 8s;
-}
+.img1 { left: 10%; animation-delay: 0s; }
+.img3 { left: 30%; animation-delay: 2s; }
+.img4 { left: 50%; animation-delay: 4s; }
+.img5 { left: 70%; animation-delay: 6s; }
+.img6 { left: 90%; animation-delay: 8s; }
 
 @keyframes move-up {
   from {
@@ -52,4 +47,30 @@ img {
   to {
     bottom: 300px;
   }
+}
+
+
+div.main.red:nth-of-type(1),
+div.main.red:nth-of-type(4) {
+  color: red;
+  font-weight: bold;
+}
+
+div, p {
+  font-size: 30px;
+}
+
+.parent > .child:nth-of-type(2) {
+  color: red;
+  font-weight: bold;
+}
+
+.baby2 {
+  color: red;
+  font-weight: bold;
+}
+
+.Elzero, .Hello, .HTML {
+  color: red;
+  font-weight: bold;
 }
