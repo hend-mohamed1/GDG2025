@@ -10,19 +10,19 @@ body {
   color: white;
 }
 
-/* سكشن الطيارات */
+
 .animation-section {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
 
-/* سكشن المحتوى */
+
 .content-section {
   padding: 40px;
 }
 
-/* الطيارات */
+
 img {
   width: 100px;
   height: 130px;
