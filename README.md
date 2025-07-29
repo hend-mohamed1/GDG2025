@@ -1,2 +1,3 @@
-![Final Image](../images/finale.png)
+![Final Image](./images/finale.png)
+
 
