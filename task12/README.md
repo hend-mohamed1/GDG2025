@@ -1,2 +1,2 @@
 markdown
-![Final Image](./images/finale.png)
+![Final Image](./finale.png)
