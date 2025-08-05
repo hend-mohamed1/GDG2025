@@ -456,3 +456,115 @@ footer {
 p{
      font-family: 'Great Vibes', cursive;
 }
+
+
+
+/* Responsive for tablets */
+@media (max-width: 992px) {
+  .services {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .parantrr {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+  .text-section {
+    width: 90%;
+  }
+
+  .main-image {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* Responsive for mobile phones */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .p1 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .i1 {
+    font-size: 30px;
+  }
+
+  .dropdown {
+    top: 50px;
+    right: 10px;
+    width: 130px;
+  }
+
+  .shadow-title {
+    font-size: 40px;
+  }
+
+  .sub-title {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .services {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .parent {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .parantrr {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .text-section {
+    width: 90%;
+  }
+
+  .main-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .cards11 {
+    width: 90%;
+  }
+
+  .footer1 p {
+    font-size: 18px;
+  }
+
+  .social-text {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bottom {
+    margin-top: 60px;
+  }
+}
