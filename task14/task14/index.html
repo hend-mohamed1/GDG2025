@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+
+  
+    <script src="task06.js"></script>
+
+    <script>
+    
+      document.getElementById("el").style.color = "red";
+
+      /*
+        Explanation:
+        - Code One will NOT work correctly.
+        - Reason: This script is executed in the <head> section 
+          before the <h1 id="el"> element is created in the DOM. 
+          Therefore, document.getElementById("el") returns null, 
+          and trying to access .style.color on null causes an error.
+        
+        - Code Two works fine because it waits until the entire page 
+          finishes loading (window.onload) before accessing the element.
+        
+        - Code Three also works fine because it is placed after the <h1> 
+          element in the <body>, so when the script runs, the element 
+          already exists in the DOM.
+      */
+    </script>
+
+    <script>
+     
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+
+    <script>
+     
+      document.getElementById("el").style.color = "red";
+    </script>
+
+    <script>
+      
+      var el = document.getElementById("el");
+      el.innerText = "Elzero";
+      el.style.color = "blue";
+    </script>
+
+    <script>
+     
+      console.log(
+        "%cElzero %cWeb %cSchool",
+        "color: red; font-size: 40px;",
+        "color: green; font-size: 40px; font-weight: bold;",
+        "color: white; background: blue; font-size: 40px;"
+      );
+
+     
+      console.group("Group 1");
+        console.log("Message One");
+        console.log("Message Two");
+
+        console.group("Child Group");
+          console.log("Message One");
+          console.log("Message Two");
+
+          console.group("Grand Child Group");
+            console.log("Message One");
+            console.log("Message Two");
+          console.groupEnd();
+        console.groupEnd();
+      console.groupEnd();
+
+      console.group("Group 2");
+        console.log("Message One");
+        console.log("Message Two");
+      console.groupEnd();
+
+      let names = ["Elzero", "Ahmed", "Sameh", "Gamal", "Aya"];
+      console.table(names);
+    </script>
+
+  
+    <script>
+      console.log("I am In Console");
+      document.write("I am In Page");
+    </script>
+  </body>
+</html>
