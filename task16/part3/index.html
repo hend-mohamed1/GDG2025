@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Assignments</title>
+  <link rel="stylesheet" href="part3/css/style.css">
+</head>
+<body>
+ <h2>Task 01 - Say Hello Function</h2>
+  <button onclick="sayHello('Osama', 'Male')">Test Osama (Male)</button>
+  <button onclick="sayHello('Eman', 'Female')">Test Eman (Female)</button>
+  <button onclick="sayHello('Sameh')">Test Sameh (No Gender)</button>
+<h2>Task 02 - Calculate Function</h2>
+  <button onclick="calculate(20)">Only One Number</button>
+  <button onclick="calculate(20,30)">Add Default</button>
+  <button onclick="calculate(20,30,'add')">Add</button>
+  <button onclick="calculate(20,30,'subtract')">Subtract</button>
+  <button onclick="calculate(20,30,'multiply')">Multiply</button>
+  <h2>Task 03 - Age In Time</h2>
+  <button onclick="ageInTime(38)">Age 38</button>
+  <button onclick="ageInTime(110)">Age 110</button>
+<h2>Task 04 - Check Status</h2>
+  <button onclick="checkStatus('Osama',38,true)">Case 1</button>
+  <button onclick="checkStatus(38,'Osama',true)">Case 2</button>
+  <button onclick="checkStatus(true,38,'Osama')">Case 3</button>
+  <button onclick="checkStatus(false,'Osama',38)">Case 4</button>
+  <h2>Task 05 - Select Box</h2>
+  <div id="box"></div>
+  <h2>Task 06 - Multiply Function</h2>
+  <button onclick="multiply(10,20)">Case 1</button>
+  <button onclick="multiply('A',10,30)">Case 2</button>
+  <button onclick="multiply(100.5,10,'B')">Case 3</button>
+
+
+  <script src="part3/js/script.js"></script>
+</body>
+</html>
